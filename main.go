@@ -25,7 +25,7 @@ func (t *templateHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	var addr = flag.String("addr", ":8080", "The addr of the application.")
+	var addr = flag.String("addr", ":80", "The addr of the application.")
 	flag.Parse() // parse the flags
 
 	r := newRoom()

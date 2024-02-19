@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd $HOME/go/gosocket
+cd $HOME/gosocket
 /usr/local/go/bin/go run .
